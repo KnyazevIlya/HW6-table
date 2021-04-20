@@ -1,5 +1,6 @@
 import Foundation
 
+//MARK: - apps logic unit structure
 struct Person {
     let name: String
     let surname: String

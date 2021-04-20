@@ -1,5 +1,6 @@
 import Foundation
 
+//MARK: - class which collects and gives access to given data
 class Dataset {
     
     private let names = PersonSourceData().names.shuffled()

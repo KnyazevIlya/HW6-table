@@ -15,13 +15,13 @@ class Person1TableViewController: UITableViewController {
         super.viewDidLoad()
     }
 
-    // MARK: - Table view data source
+    // MARK: - Table view configuration
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
 
-    
+    //MARK: - section style style
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath) as! CustomTableViewCell
         cell.subviewLabel.text = data[indexPath.row].name + " " + data[indexPath.row].surname
@@ -29,11 +29,7 @@ class Person1TableViewController: UITableViewController {
         
         cell.cellSubview.layer.cornerRadius = cell.cellSubview.frame.height / 2
         cell.subviewImage.layer.cornerRadius = cell.subviewImage.frame.height / 2
-        /*
-        cell.textLabel?.text = data[indexPath.row].name + " " + data[indexPath.row].surname
-        cell.imageView?.image = UIImage(named: "exampleImage")
-        cell.imageView?.layer.cornerRadius = (cell.imageView?.frame.size.width)! / 2
-        */
+        
         return cell
     }
     
@@ -41,6 +37,7 @@ class Person1TableViewController: UITableViewController {
         return 100
     }
     
+    //MARK: - segue data transfer configuration
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "detailed" {
             if let indexPath = tableView.indexPathForSelectedRow {

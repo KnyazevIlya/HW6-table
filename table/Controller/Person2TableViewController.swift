@@ -31,7 +31,7 @@ class Person2TableViewController: UITableViewController {
         return info
     }
 
-    // MARK: - Table view data source
+    // MARK: - Table view configuration
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return data.count

@@ -9,9 +9,11 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    //MARK: - custom cell outlets
     @IBOutlet var cellSubview: UIView!
     @IBOutlet var subviewImage: UIImageView!
     @IBOutlet var subviewLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,7 +22,6 @@ class CustomTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }
