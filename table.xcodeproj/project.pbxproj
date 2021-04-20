@@ -18,6 +18,7 @@
 		BCED7241262B4D3700BCD4F3 /* dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED7240262B4D3700BCD4F3 /* dataset.swift */; };
 		BCED7244262B631B00BCD4F3 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED7243262B631B00BCD4F3 /* DetailedViewController.swift */; };
 		BCED7247262B720900BCD4F3 /* Person2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED7246262B720900BCD4F3 /* Person2TableViewController.swift */; };
+		BCED724B262F3F1200BCD4F3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED724A262F3F1200BCD4F3 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BCED7240262B4D3700BCD4F3 /* dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataset.swift; sourceTree = "<group>"; };
 		BCED7243262B631B00BCD4F3 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		BCED7246262B720900BCD4F3 /* Person2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person2TableViewController.swift; path = table/Controller/Person2TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		BCED724A262F3F1200BCD4F3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				BCED723D262B479700BCD4F3 /* Person1TableViewController.swift */,
 				BCED7246262B720900BCD4F3 /* Person2TableViewController.swift */,
 				BCED7243262B631B00BCD4F3 /* DetailedViewController.swift */,
+				BCED724A262F3F1200BCD4F3 /* CustomTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				BCED7244262B631B00BCD4F3 /* DetailedViewController.swift in Sources */,
 				BCED7232262B04E600BCD4F3 /* Person.swift in Sources */,
 				BCED723E262B479700BCD4F3 /* Person1TableViewController.swift in Sources */,
+				BCED724B262F3F1200BCD4F3 /* CustomTableViewCell.swift in Sources */,
 				BCED723A262B165C00BCD4F3 /* Person data.swift in Sources */,
 				BCED7217262AF9BF00BCD4F3 /* AppDelegate.swift in Sources */,
 				BCED7241262B4D3700BCD4F3 /* dataset.swift in Sources */,

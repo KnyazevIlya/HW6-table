@@ -14,7 +14,7 @@ class Person2TableViewController: UITableViewController {
     
     //MARK: - private properties
     private let sectionHeaderHeight: CGFloat = 40
-    private let mainColor: UIColor = UIColor(displayP3Red: 0.34509803921568627, green: 0.33725490196078434, blue: 0.8392156862745098, alpha: 0.6)
+    private let mainColor: UIColor = UIColor(displayP3Red: 255/255, green: 189/255, blue: 0/255, alpha: 0.7)
 
     override func viewDidLoad() {
         super.viewDidLoad()
