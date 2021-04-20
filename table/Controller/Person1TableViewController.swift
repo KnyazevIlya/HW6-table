@@ -10,6 +10,7 @@ import UIKit
 class Person1TableViewController: UITableViewController {
     
     private let data = Dataset(numberOfPeople: PersonSourceData().names.count).getData()
+    private let mainColor = CGColor(srgbRed: 208/255, green: 208/255, blue: 208/255, alpha: 1)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,9 @@ class Person1TableViewController: UITableViewController {
         
         cell.cellSubview.layer.cornerRadius = cell.cellSubview.frame.height / 2
         cell.subviewImage.layer.cornerRadius = cell.subviewImage.frame.height / 2
+        
+        cell.cellSubview.layer.borderWidth = 2
+        cell.cellSubview.layer.borderColor = mainColor
         
         return cell
     }
